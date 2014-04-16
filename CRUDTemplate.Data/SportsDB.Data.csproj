@@ -53,17 +53,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="Migrations\201404092153447_InitialMigration.cs" />
+    <Compile Include="Migrations\201404092153447_InitialMigration.Designer.cs">
+      <DependentUpon>201404092153447_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201404101628090_Structuresetup.cs" />
+    <Compile Include="Migrations\201404101628090_Structuresetup.Designer.cs">
+      <DependentUpon>201404101628090_Structuresetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CRUDTemplate.DataModels\CRUDTemplate.DataModels.csproj">
+    <ProjectReference Include="..\CRUDTemplate.DataModels\SportsDB.DataModels.csproj">
       <Project>{9f48b4f7-0c41-4352-9550-8dc1c952e4b0}</Project>
-      <Name>CRUDTemplate.DataModels</Name>
+      <Name>SportsDB.DataModels</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201404092153447_InitialMigration.resx">
+      <DependentUpon>201404092153447_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404101628090_Structuresetup.resx">
+      <DependentUpon>201404101628090_Structuresetup.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

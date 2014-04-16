@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(CRUDTemplate.Startup))]
-namespace CRUDTemplate
+[assembly: OwinStartupAttribute(typeof(SportsDB.Startup))]
+namespace SportsDB
 {
     public partial class Startup
     {

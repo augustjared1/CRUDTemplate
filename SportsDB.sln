@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
+# Visual Studio 2013
 VisualStudioVersion = 12.0.30219.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDTemplate", "CRUDTemplate\CRUDTemplate.csproj", "{116C295D-87D0-4F6C-B548-71F68B0532DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsDB", "CRUDTemplate\SportsDB.csproj", "{116C295D-87D0-4F6C-B548-71F68B0532DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDTemplate.Data", "CRUDTemplate.Data\CRUDTemplate.Data.csproj", "{BD04A585-8F66-4A88-9E52-8B1F82EBE1D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsDB.Data", "CRUDTemplate.Data\SportsDB.Data.csproj", "{BD04A585-8F66-4A88-9E52-8B1F82EBE1D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDTemplate.DataModels", "CRUDTemplate.DataModels\CRUDTemplate.DataModels.csproj", "{9F48B4F7-0C41-4352-9550-8DC1C952E4B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsDB.DataModels", "CRUDTemplate.DataModels\SportsDB.DataModels.csproj", "{9F48B4F7-0C41-4352-9550-8DC1C952E4B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

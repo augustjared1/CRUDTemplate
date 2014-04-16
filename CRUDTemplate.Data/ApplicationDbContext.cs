@@ -1,12 +1,13 @@
-﻿using CRUDTemplate.DataModels;
+﻿using SportsDB.DataModels;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
-namespace CRUDTemplate.Data
+namespace SportsDB.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -14,6 +15,7 @@ namespace CRUDTemplate.Data
             : base("DefaultConnection")
         {
         }
-
+        public DbSet<Athlete> Athletes { get; set; }
+        public DbSet<Sport> Sports { get; set; }
     }
 }

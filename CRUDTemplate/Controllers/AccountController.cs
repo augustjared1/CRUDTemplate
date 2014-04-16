@@ -9,12 +9,12 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Owin;
-using CRUDTemplate.Models;
-using CRUDTemplate.DataModels;
+using SportsDB.Models;
+using SportsDB.DataModels;
 using Microsoft.AspNet.Identity.Owin;
-using CRUDTemplate.Data;
+using SportsDB.Data;
 
-namespace CRUDTemplate.Controllers
+namespace SportsDB.Controllers
 {
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {

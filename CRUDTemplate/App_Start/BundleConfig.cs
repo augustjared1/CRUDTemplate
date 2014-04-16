@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace CRUDTemplate
+namespace SportsDB
 {
     public class BundleConfig
     {

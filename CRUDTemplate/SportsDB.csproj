@@ -177,6 +177,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\HomeIndexVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -231,6 +232,9 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\NewAthlete.cshtml" />
+    <Content Include="Views\Home\UpdateAthlete.cshtml" />
+    <Content Include="Views\Home\DeleteAthlete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -243,13 +247,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CRUDTemplate.DataModels\CRUDTemplate.DataModels.csproj">
+    <ProjectReference Include="..\CRUDTemplate.DataModels\SportsDB.DataModels.csproj">
       <Project>{9f48b4f7-0c41-4352-9550-8dc1c952e4b0}</Project>
-      <Name>CRUDTemplate.DataModels</Name>
+      <Name>SportsDB.DataModels</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CRUDTemplate.Data\CRUDTemplate.Data.csproj">
+    <ProjectReference Include="..\CRUDTemplate.Data\SportsDB.Data.csproj">
       <Project>{bd04a585-8f66-4a88-9e52-8b1f82ebe1d4}</Project>
-      <Name>CRUDTemplate.Data</Name>
+      <Name>SportsDB.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

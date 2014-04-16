@@ -6,11 +6,11 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.DataProtection;
 using Owin;
 using System;
-using CRUDTemplate.Models;
-using CRUDTemplate.Controllers;
-using CRUDTemplate.DataModels;
+using SportsDB.Models;
+using SportsDB.Controllers;
+using SportsDB.DataModels;
 
-namespace CRUDTemplate
+namespace SportsDB
 {
     public partial class Startup
     {

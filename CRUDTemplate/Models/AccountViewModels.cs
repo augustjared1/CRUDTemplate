@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CRUDTemplate.Models
+namespace SportsDB.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

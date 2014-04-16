@@ -1,0 +1,13 @@
+﻿@model SportsDB.Models.HomeIndexVM
+@{
+    ViewBag.Title = "NewAthlete";
+}
+
+<h2>Add a New Athlete</h2>
+
+<form action="/Home/NewAthlete" method="post">
+    <input type="text" name="Name" placeholder="Name" />
+    <input type="text" name="Position" placeholder="Position" />
+    <input type="text" name="Team" placeholder="Team" /><br />
+    <button type="submit">Submit Athlete</button>
+</form>
